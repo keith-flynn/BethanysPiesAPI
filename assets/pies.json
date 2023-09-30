@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Apple",
+    "wholePrice": 19.99,
+    "slicePrice": 4.99,
+    "sliceCalories": 67,
+    "imageUrl": "images/apple.jpg"
+  },
+  {
+    "id": 1,
+    "name": "Crapple",
+    "wholePrice": 19.99,
+    "slicePrice": 4.99,
+    "sliceCalories": 67,
+    "imageUrl": "images/crapple.jpg"
+  },
+  {
+    "id": 1,
+    "name": "Boysenberry",
+    "wholePrice": 19.99,
+    "slicePrice": 4.99,
+    "sliceCalories": 69,
+    "imageUrl": "images/boysenberry.jpg"
+  }  
+]
