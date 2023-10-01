@@ -22,5 +22,37 @@
     "slicePrice": 4.99,
     "sliceCalories": 69,
     "imageUrl": "images/boysenberry.jpg"
-  }  
+  },
+  {
+    "id": 4,
+    "name": "Fray",
+    "wholePrice": 19.99,
+    "slicePrice": 4.99,
+    "sliceCalories": 167,
+    "imageUrl": "images/fray.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Gooseberry",
+    "wholePrice": 19.99,
+    "slicePrice": 4.99,
+    "sliceCalories": 67,
+    "imageUrl": "images/gooseberry.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Reese's Peanut Butter",
+    "wholePrice": 19.99,
+    "slicePrice": 4.99,
+    "sliceCalories": 67,
+    "imageUrl": "images/reeses.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Punkin",
+    "wholePrice": 19.99,
+    "slicePrice": 4.99,
+    "sliceCalories": 88,
+    "image": "images/punkin.jpg"
+  }
 ]
