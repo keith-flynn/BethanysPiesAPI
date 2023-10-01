@@ -8,7 +8,7 @@
     "imageUrl": "images/apple.jpg"
   },
   {
-    "id": 1,
+    "id": 2,
     "name": "Crapple",
     "wholePrice": 19.99,
     "slicePrice": 4.99,
@@ -16,7 +16,7 @@
     "imageUrl": "images/crapple.jpg"
   },
   {
-    "id": 1,
+    "id": 3,
     "name": "Boysenberry",
     "wholePrice": 19.99,
     "slicePrice": 4.99,
