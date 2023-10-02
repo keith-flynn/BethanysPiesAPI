@@ -54,5 +54,13 @@
     "slicePrice": 4.99,
     "sliceCalories": 88,
     "image": "images/punkin.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Green Apple",
+    "wholePrice": 19.99,
+    "slicePrice": 4.99,
+    "sliceCalories": 66,
+    "image": "images/greenapple.jpg"
   }
 ]
