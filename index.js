@@ -2,6 +2,7 @@
 let express = require('express');
 let app = express();
 let pieRepo = require('./repos/pieRepo');
+let errorHelper = require('./helpers/errorHelpers');
 
 // Use the express Router object
 let router = express.Router();
@@ -173,19 +174,12 @@ router.patch('/:id', function (req, res, next) {
 // Configure router so all routes are prefixed with /api/v1
 app.use('/api/', router);
 
-// Configure exception middleware last
-// middleware recognizes this from four arguments - call instead of default
-app.use(function(err, req, res, next) {
-  res.status(500).json({
-    "status": 500,
-    "statusText": "Internat Server Error",
-    "message": err.message,
-    "error": {
-      "code": "INTERNAL_SERVER_ERROR",
-      "message": err.message
-    }
-  });
-});
+// Configure exception logger to console
+app.use(errorHelper.logErrorsToConsole);
+// Configure client error handler
+app.use(errorHelper.clientErrorHandler);
+// Configure catch-all exception middleware last
+app.use(errorHelper.errorHandler);
 
 //Create server to listen on port 5000
 var server = app.listen(5000, function () {
